@@ -10,6 +10,11 @@
         p {
             -webkit-text-fill-color: red;
         }
+        .blastoff:hover {
+            color: white;
+            border-color: darkred;
+            background-color:red;
+        }
     </style>
 </head>
 
@@ -58,7 +63,7 @@
     </script>
 
     <p id="ctdnTimer"> Countdown Timer </p>
-    <button onClick="countdownTimer();">Initiate Blastoff Sequence</button>
+    <button class="blastoff" onClick="countdownTimer();">Initiate Blastoff Sequence</button>
     <br>
     <br>
     <button class="start">Start</button>
